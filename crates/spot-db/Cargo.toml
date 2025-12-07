@@ -1,0 +1,17 @@
+[package]
+name = "spot-db"
+version.workspace = true
+rust-version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+
+anyhow.workspace = true
+dotenvy.workspace = true
+tracing.workspace = true 
+
+tokio-postgres = "0.7.15"
+deadpool-postgres = "0.14.1"
